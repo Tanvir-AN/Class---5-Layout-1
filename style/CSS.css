@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#ccffff;
+}
+.main{
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+.header, .content, .sidbar, .footer{
+	background-color:#0066ff;
+}
+.header{
+	min-height: 100px;
+	margin-bottom: 50px;
+}
+.header h1{
+	padding: 50px 0;
+}
+.body-cs{
+	overflow: hidden;
+}
+.content{
+	float: left;
+	min-height: 400px;
+	width: 60%;
+}
+.content h1{
+	padding:200px 0;
+}
+.sidbar{
+	float: right;
+	min-height: 400px;
+	width: 38%
+
+}
+.sidbar h1{
+	padding:200px 0;
+}
+.footer{
+	min-height: 100px;
+	margin-top: 50px;
+}
+.footer h1{
+	padding: 50px 0;
+}
